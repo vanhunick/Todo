@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="control\Class1.cs" />
+    <Compile Include="control\CheckBox.cs" />
     <Compile Include="control\Class2.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>

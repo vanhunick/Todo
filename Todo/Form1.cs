@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Todo.control;
 
 namespace Todo {
     public partial class Form1 : Form {
@@ -22,6 +23,13 @@ namespace Todo {
             SolidBrush solidbrush = new SolidBrush(Color.Red);
             Graphics g = panel1.CreateGraphics();
             g.FillRectangle(solidbrush, 50, 50, 100, 50);
+            Point p = new Point();
+            p.X = 200;
+            p.Y = 200;
+
+            control.CheckBox box = new control.CheckBox(p);
+            box.draw(g);
+
         }
     }
 }
